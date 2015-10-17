@@ -88,6 +88,18 @@ body{
 .logo{
 	width: 35%;
 }
+.second{
+	padding: 3%;
+}
+.second h1{
+	padding-bottom: 5px;
+	border-bottom: 3px solid #2980b9;
+	text-align: left;
+}
+.second h4{
+	padding: 3% 10%;
+	text-align: justify;
+}
 .third{
 	padding: 3%;
 	display: block;

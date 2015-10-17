@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="../icon.jpg" sizes="16x16" type="image/jpg">
+	<meta name="author" content="Magnus Fernandes">
+	<meta name="description" content="Ruach">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>RUACH</title>
+	<link rel="stylesheet" href="../css/about.css">
+</head>
+<body>
+	<div class="mainwrapper">
+		<section class="first">
+			<article class="menu">
+				<ul>
+					<li id="home"><a href="../"><span><h4>Home</h4></span></a></li>
+					<li id="services"><a href="../Services/"><span><h4>Services</h4></span></a></li>
+					<li id="contacts"><a href="#"><span><h4>Contacts</h4></span></a></li>
+				</ul>
+			</article>
+			<div class="logo">
+				<img src="../images/logo.png" alt="Ruach" class="img-responsive">
+			</div>
+		</section>
+		<section class="second">
+			<h1>ABOUT US</h1>
+			<h4>People with tremendous industry expertise who act as the Practice Leaders for business domains.
+People with deep operational knowledge as Subject Matter Experts, 
+People who have the edge to execute as successful Operational Leaders,
+and at the core people who actually make things happen, our agents and associates who are our everyday heroes and many more in the background who are change agents and catalysts. Our collaborative working approach and our ability to advice, design, implement earns us the reputation of being true client advocates. We present our clients with solutions that meet basic goals from cost savings to transformation along with a global delivery network to address multiple language needs, local on shore presence and capacity requirements
+With intellect packed and experienced teams, process expertise comes to us effortlessly. Coupled with this, we leverage our equally strong capabilities of Consulting, IT home grown tools along with analytics in our client engagements and business solutions.
+</h4>
+		</section>
+		<section class="third">
+			<div class="social">
+				<h5>RUACH INFOSOLUTIONS &copy; 2015</h5>
+				<h5><a href="#">PRIVACY POLICY</a></h5>
+				<ul>
+					<li><a href="#"><img src="../images/facebook.svg" alt="" class="img-responsive"></a></li>
+					<li><a href="#"><img src="../images/twitter.svg" alt="" class="img-responsive"></a></li>
+				</ul>
+			</div>
+			<div class="phone">
+				<h4>GET IN TOUCH WITH US</h4>
+				<h5>TELEPHONE: +832-325-0-625</h5>
+				<h5>EMAIL: ruachinfosolutions@gmail.com</h5>
+			</div>
+			<div class="loc">
+				<h4>MEET US AT</h4>
+				<h5>Ruach Infosolutions Pvt. Ltd.</h5>
+				<h5>411, 4<sup>th</sup> floor</h5>
+				<h5>Gera Imperium II</h5>
+				<h5>Patto Complex, Panaji</h5>
+				<h5>Goa - 403001</h5>
+			</div>
+		</section>
+	</div>
+<script src="js/jquery"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+  function initialize() {
+    var mapCanvas = document.getElementById('map');
+    var mapOptions = {
+      center: new google.maps.LatLng(15.4776515,73.801693),
+      zoom: 14,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(mapCanvas, mapOptions)
+  }
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</body>
+</html>
