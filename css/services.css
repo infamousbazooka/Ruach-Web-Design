@@ -91,11 +91,75 @@ body{
 .second{
 	padding: 2%;
 }
-.second h4{
-	font-size: 120%;
-	text-align: justify;
-	text-transform: uppercase;
+.title{
+	width: 50%;
+}
+.title h1{
+	text-align: left;
+}
+.content{
+	display: block;
+}
+.content div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.left{
+	width: 20%;
+}
+.left h4{
 	padding: 4%;
+	background-color: #2980b9;
+	border-radius: 20px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.left h4:hover{
+	background-color: #4aa3df;
+}
+.right{
+	width: 79%;
+}
+.right h4{
+	text-align: justify;
+	padding: 4%;
+}
+.next{
+	display: block;
+	padding: 2%;
+	background-color: #2980b9;
+}
+.next div{
+	display: inline-block;
+	width: 30%;
+	margin: 1%;
+	vertical-align: top;
+}
+.next h2{
+	padding: 3%;
+	border-radius: 20px;
+}
+.one h2{
+	background-color: #c0392b;
+}
+.two h2{
+	background-color: #27ae60;
+}
+.three h2{
+	background-color: #f39c12;
+}
+.next h4{
+	padding: 2%;
+	text-transform: uppercase;
+	color: #fafafa;
+}
+.banner{
+	padding: 3%;
+	background-color: #7f8c8d;
+}
+.banner h4{
+	text-align: justify;
+	color: #fff;
 }
 .third{
 	padding: 3%;
@@ -125,21 +189,5 @@ body{
 	margin: 2% 5px;
 }
 .social li img{
-	border-radius: 50%;
-}
-.top{
-	cursor: pointer;
-	width: 50px;
-	height: 50px;
-	position: fixed;
-	bottom: 12px;
-	right: 12px;
-	background-color: #2980b9;
-	border-radius: 50%;
-	overflow: hidden;
-	box-shadow: 2px 2px 5px rgba(34,34,34,0.8);
-}
-.top:hover{
-	background-color: #4aa3df;
-	box-shadow: 2px 2px 5px rgba(34,34,34,1);
+	border-radius: 30%;
 }
