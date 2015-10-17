@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Anton|Alegreya|Roboto+Slab);
+*{
+	font-family: 'Alegreya', serif;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: #222d2f;
+	-webkit-transition: all 0.2s 0.1s ease-out;
+	   -moz-transition: all 0.2s 0.1s ease-out;
+		 -o-transition: all 0.2s 0.1s ease-out;
+	    -ms-transition: all 0.2s 0.1s ease-out;
+         	transition: all 0.2s 0.1s ease-out;
+}
+a,li,ul,ol{
+	text-decoration: none;
+	list-style: none;
+	color: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 100;
+}
+h1{font-size: 500%;}
+h2{font-size: 400%;}
+h3{font-size: 300%;}
+h4{font-size: 200%;}
+h5{font-size: 100%;}
+h6{font-size: 90%;}
+body{
+	max-width: 1600px;
+	clear: both;
+	background-color: #fafafa;
+}
+.img-responsive{
+	width: 100%;
+}
+.mainwrapper{
+	display: block;
+}
+.menu ul{
+	display: block;
+	background-color: #34495e;
+	width: 60%;
+	margin: 0 20%;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.menu li{
+	display: inline-block;
+	padding: 2%;
+	width: calc(29% - 4px);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.menu li:hover{
+	background-color: #2c3e50;
+}
+.menu h4{
+	font-family: 'Alegreya', serif;
+	text-transform: uppercase;
+}
+/*#home{
+	border-left: 2px solid #04200E;
+}*/
+#services{
+	border-left: 2px solid #04200E;
+	border-right: 2px solid #04200E;
+}
+/*#contacts{
+	border-right: 2px solid #04200E;
+}*/
+.first{
+	background-image: url(../images/first.jpg);
+	background-position: center;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	display: block;
+}
+.first div{
+	padding: 2%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.logo{
+	width: 35%;
+}
+.tag{
+	width: 55%;
+}
+.second{
+	padding: 2%;
+}
+.second p{
+	text-align: justify;
+	text-transform: uppercase;
+	padding: 4%;
+}
+.third{
+	display: block;
+	background-color: #222d2f;
+}
+.third div{
+	display: inline-block;
+}
