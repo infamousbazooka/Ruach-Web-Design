@@ -66,7 +66,7 @@ body{
 /*#home{
 	border-left: 2px solid #04200E;
 }*/
-#services{
+#about{
 	border-left: 2px solid #04200E;
 	border-right: 2px solid #04200E;
 }
@@ -88,14 +88,95 @@ body{
 .logo{
 	width: 35%;
 }
+.welcome{
+	padding: 2%;
+	background-color: #222d2f;
+}
+.welcome span{
+	color: #fafafa;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #fafafa;
+	font-family: "Roboto Slab",serif;
+}
+.welcome h4{
+	color: #fafafa;
+	font-size: 120%;
+	text-align: justify;
+	padding: 4%;
+}
 .second{
 	padding: 2%;
 }
-.second h4{
-	font-size: 120%;
-	text-align: justify;
-	text-transform: uppercase;
+.title h1{
+	text-align: center;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #333;
+}
+.content{
+	display: block;
+}
+.content div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.left{
+	width: 20%;
+}
+.left h4{
+	text-align: center;
 	padding: 4%;
+	background-color: #2980b9;
+	border-radius: 20px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.left h4:hover{
+	background-color: #4aa3df;
+}
+.right{
+	width: 79%;
+}
+.right h4{
+	font-size: 250%;
+	text-align: justify;
+	padding: 4%;
+}
+.next{
+	display: block;
+	padding: 2%;
+	background-color: #2980b9;
+}
+.next div{
+	display: inline-block;
+	width: 30%;
+	margin: 1%;
+	vertical-align: top;
+}
+.next h2{
+	padding: 3%;
+	border-radius: 20px;
+}
+.one h2{
+	background-color: #c0392b;
+}
+.two h2{
+	background-color: #27ae60;
+}
+.three h2{
+	background-color: #f39c12;
+}
+.next h4{
+	padding: 2%;
+	text-transform: uppercase;
+	color: #fafafa;
+}
+.banner{
+	padding: 3%;
+	background-color: #7f8c8d;
+}
+.banner h4{
+	text-align: justify;
+	color: #fff;
 }
 .third{
 	padding: 3%;

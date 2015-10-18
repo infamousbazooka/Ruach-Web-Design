@@ -91,9 +91,6 @@ body{
 .second{
 	padding: 2%;
 }
-form{
-	text-align: left;
-}
 .one{
 	display: block;
 	text-align: center;
@@ -120,7 +117,7 @@ textarea{
 }
 #submit{
 	cursor: pointer;
-	padding: 1% 2%;
+	padding: 1% 5%;
 	font-size: 120%;
 	border-radius: 20px;
 	border: 2px solid rgba(34,34,34,0.6);
